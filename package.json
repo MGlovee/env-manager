@@ -1,0 +1,46 @@
+{
+  "name": "@local/env-manager",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Manage local JDK, Node.js, Maven, and Python versions: scan installs, download releases, switch environment variables, and configure Maven mirrors.",
+  "license": "MIT",
+  "author": "hujunjie <hujunjie@zking.com>",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "jdk",
+    "nodejs",
+    "maven",
+    "python",
+    "version-manager",
+    "environment"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

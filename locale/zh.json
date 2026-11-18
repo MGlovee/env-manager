@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "运行环境版本管理器",
+    "description": "扫描、下载并切换本机 JDK、Node.js、Maven、Python 版本，并配置 Maven 镜像与仓库。",
+    "detail": "docs/DETAIL.md"
+  }
+}

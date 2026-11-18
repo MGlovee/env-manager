@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Runtime version manager",
+    "description": "Scan, download, and switch local JDK, Node.js, Maven, and Python versions, and configure Maven mirrors and repositories.",
+    "detail": "docs/DETAIL.md"
+  }
+}

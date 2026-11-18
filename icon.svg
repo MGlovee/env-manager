@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="4" y="4" width="56" height="56" rx="13" fill="#2f6fed"/>
+  <rect x="14" y="14" width="36" height="10" rx="3" fill="#ffffff"/>
+  <rect x="14" y="27" width="36" height="10" rx="3" fill="#d8e6ff"/>
+  <rect x="14" y="40" width="36" height="10" rx="3" fill="#9fc1ff"/>
+  <text x="32" y="22" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="700" fill="#2f6fed" text-anchor="middle">1.0</text>
+  <text x="32" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="700" fill="#2f6fed" text-anchor="middle">2.0</text>
+  <text x="32" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="7" font-weight="700" fill="#2f6fed" text-anchor="middle">3.0</text>
+</svg>
